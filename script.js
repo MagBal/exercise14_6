@@ -34,6 +34,7 @@ var Counter = React.createClass({
 
     shouldComponentUpdate: function() {
         console.log('Check if component must be update.');
+        return true;
     },
 
     componentWillUpdate: function() {
